@@ -15,3 +15,5 @@ In ```~/.bashrc``` add:
 ```
 . ~/bin/dotfiles/bashrc
 ```
+
+Done.
