@@ -1,5 +1,8 @@
-dotfiles
-========
+Usage
+=====
+
+Bash
+----
 
 In ```~/.bash_profile``` add:
 
@@ -16,4 +19,10 @@ In ```~/.bashrc``` add:
 . ~/bin/dotfiles/bashrc
 ```
 
-Done.
+Vim
+---
+
+```
+ln -nfs ~/bin/dotfiles/vim/vimrc ~/.vimrc
+ln -nfs ~/bin/dotfiles/vim/gvimrc ~/.gvimrc
+```
