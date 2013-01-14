@@ -2,6 +2,7 @@
 alias dotfiles='cd ~/bin/dotfiles/'
 alias editdotfiles='mate ~/bin/dotfiles/'
 alias ls='ls -la'
+alias browser='/usr/bin/open -a "/Applications/Google Chrome.app"'
 
 # location shortcuts
 alias gems='cd ~/.rvm/gems/ruby-1.9.2-p0/gems/'
@@ -10,13 +11,14 @@ alias sites='cd ~/sites/'
 alias marlytics='cd ~/sites/marlytics/'
 
 # rails
-alias resetdb='rake db:drop; rake db:create; rake db:migrate; rake db:test:prepare; rake db:seed; rake db:development:sample_data --trace; rake layouts:build --trace;'
+alias resetdb='rake db:drop; rake db:create; rake db:migrate; rake db:test:prepare; rake db:seed; rake billing_plans:build; rake fonts:build; rake admin_users:build; rake db:development:sample_data --trace;'
 alias migrate='rake db:migrate; rake db:test:prepare'
 alias rollback='rake db:rollback'
 alias routes='rake routes'
 
 # heroku
 # alias herokuresetdb='heroku pg:reset HEROKU_POSTGRESQL_BLACK --confirm marlytics; heroku rake db:migrate; heroku rake db:seed; heroku rake db:development:sample_data'
+alias herokupull='heroku db:pull --exclude events,sessions,versions,visitors --confirm lawlytics'
 
 # git
 alias add='git add --all; git status;'
@@ -34,3 +36,4 @@ alias show='git show --pretty="format:" --name-only'
 alias stash='git stash'
 alias merge='git merge'
 alias diff='git diff'
+alias mergedev='git checkout master; git merge development; git checkout development'
