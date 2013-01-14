@@ -1,8 +1,7 @@
-Usage
-=====
+Setup
+-----
 
-Bash
-----
+### Bash
 
 In ```~/.bash_profile``` add:
 
@@ -19,8 +18,7 @@ In ```~/.bashrc``` add:
 . ~/bin/dotfiles/bashrc
 ```
 
-Vim
----
+### Vim
 
 ```
 ln -nfs ~/bin/dotfiles/vim/vimrc ~/.vimrc
