@@ -13,4 +13,4 @@ set incsearch
 
 colorscheme railscasts
 
-cd /Users/Derek/Sites/
+cd ~/Sites/
