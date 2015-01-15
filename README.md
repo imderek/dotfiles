@@ -3,7 +3,7 @@
 Clone repo to `~/bin/dotfiles`:
 
 ```
-mkdir ~/bin
+mkdir -p ~/bin
 cd ~/bin
 git clone git@github.com:imderek/dotfiles.git
 ```
