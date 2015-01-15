@@ -1,6 +1,6 @@
 # misc
 alias dotfiles='cd ~/bin/dotfiles/'
-alias editdotfiles='mate ~/bin/dotfiles/'
+alias editdotfiles='subl ~/bin/dotfiles/'
 alias ls='ls -la'
 alias browser='/usr/bin/open -a "/Applications/Google Chrome.app"'
 
@@ -24,7 +24,7 @@ alias herokupull='heroku db:pull --exclude events,sessions,versions,visitors --c
 alias ga='git add --all; git status;'
 alias gc='git commit -am '
 alias gco='git checkout'
-alias gb='git branch'
+alias gb='git branch --column'
 alias gs='git status'
 alias push='git push'
 alias pull='git pull'
