@@ -1,4 +1,5 @@
+PATH="/usr/local/bin:$PATH"
 PATH="$HOME/bin:$PATH"
-PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
+PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
